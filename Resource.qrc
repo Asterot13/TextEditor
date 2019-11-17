@@ -11,5 +11,6 @@
         <file>img/about.png</file>
         <file>img/openf.png</file>
         <file>about.txt</file>
+        <file>style.txt</file>
     </qresource>
 </RCC>

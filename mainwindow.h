@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <QtCore>
+#include <QPrinter>
+#include <QPrintDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

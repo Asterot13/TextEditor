@@ -10,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setCentralWidget(ui->centralwidget);
 }
 
 MainWindow::~MainWindow()
@@ -99,7 +100,6 @@ void MainWindow::on_actionUndo_triggered()
 
 void MainWindow::on_actionAbout_TextEditor_triggered()
 {
-    QString data;
     QString aboutFile(":/rec/about.txt");
     QFile file(aboutFile);
     if(!file.open(QFile::ReadOnly | QFile::Text))
